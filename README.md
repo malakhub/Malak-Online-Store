@@ -7,6 +7,7 @@ A clean, multi-page e-commerce storefront built with pure HTML, CSS, and vanilla
 ## 🌐 Live Demo
 
 [View the live website](https://malakhub.github.io/Malak-Online-Store/)
+![Project preview](./img/gif.gif)
 
 ---
 
