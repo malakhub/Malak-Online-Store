@@ -2,12 +2,15 @@
 
 A clean, multi-page e-commerce storefront built with pure HTML, CSS, and vanilla JavaScript. Products come live from the free [DummyJSON](https://dummyjson.com) API, and the cart, accounts, and orders all work in the browser with no backend and no build step.
 
+<p align="center">
+  <img src="./img/gif.gif" alt="Malak Online Store preview" width="800">
+</p>
+
 ---
 
 ## 🌐 Live Demo
 
 [View the live website](https://malakhub.github.io/Malak-Online-Store/)
-![Project preview](./img/gif.gif)
 
 ---
 
@@ -67,7 +70,8 @@ malak-online-store/
 │   └── signup.js       # Signup logic
 └── img/
     ├── logo.png        # Header logo
-    └── icon.png        # Browser tab icon
+    ├── icon.png        # Browser tab icon
+    └── gif.gif         # Preview used in this README
 ```
 
 ---
