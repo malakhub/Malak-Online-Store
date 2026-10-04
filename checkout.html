@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malak | Checkout</title>
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/pages.css">
+    <script src="https://kit.fontawesome.com/3da8b86f0c.js" crossorigin="anonymous"></script>
+</head>
+<body class="inner" data-page="checkout">
+<div id="site-header"></div>
+<script src="./JS/common.js"></script>
+<main class="container page">
+<h1 class="page-title">Checkout</h1>
+<div class="co-layout" id="co">
+  <form class="stack" id="checkout-form" novalidate>
+    <h3>Contact details</h3>
+    <div class="two"><input id="first-name" placeholder="First name" required><input id="last-name" placeholder="Last name" required></div>
+    <div class="two"><input id="email" type="email" placeholder="Email" required><input id="phone" type="tel" placeholder="Phone number" required></div>
+    <h3>Shipping address</h3>
+    <div class="two"><input id="city" placeholder="City" required><input id="state" placeholder="State" required></div>
+    <input id="address1" placeholder="Address line 1" required>
+    <input id="address2" placeholder="Address line 2 (optional)">
+    <div class="err" id="co-err"></div>
+    <button type="submit" class="btn">Place order</button>
+  </form>
+  <aside class="summary"><h3>Your order</h3><div id="co-items"></div>
+    <div class="row"><span>Total</span><b id="co-total">$0.00</b></div></aside>
+</div>
+<div class="success" id="success" hidden><i class="fa-solid fa-circle-check"></i><h2>Order placed</h2><p id="order-no"></p><br><a href="index.html" class="btn" style="display:inline-flex">Keep shopping</a></div>
+</main>
+<script src="./JS/checkout.js"></script>
+</body>
+</html>

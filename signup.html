@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malak | Sign up</title>
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/pages.css">
+    <script src="https://kit.fontawesome.com/3da8b86f0c.js" crossorigin="anonymous"></script>
+</head>
+<body class="inner" data-page="signup">
+<div id="site-header"></div>
+<script src="./JS/common.js"></script>
+<main class="container page">
+<div class="auth">
+  <h1>Create your account</h1>
+  <p class="hint">It only takes a minute.</p>
+  <form class="stack" id="signup_form" novalidate>
+    <input id="signup_firstname" placeholder="First name">
+    <div class="err" id="signup_firstname_err"></div>
+    <input id="signup_lastname" placeholder="Last name">
+    <div class="err" id="signup_lastname_err"></div>
+    <input id="signup_email" type="email" placeholder="Email">
+    <div class="err" id="signup_email_err"></div>
+    <input id="signup_password" type="password" placeholder="Password (8+ characters)">
+    <div class="err" id="signup_password_err"></div>
+    <input id="signup_confirm" type="password" placeholder="Confirm password">
+    <div class="err" id="signup_confirm_err"></div>
+    <button class="btn" type="submit">Create account</button>
+  </form>
+  <p class="switch">Already have an account? <a href="login.html">Log in</a></p>
+</div>
+</main>
+<script src="./JS/auth.js"></script>
+<script src="./JS/signup.js"></script>
+</body>
+</html>
